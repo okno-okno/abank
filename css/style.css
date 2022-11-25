@@ -1,0 +1,177 @@
+/*--------------------МЕНЮ ХЕДЕР--------------------------*/
+
+.frame1 {
+	font-family: ubuntu;
+	font-size: 14px;
+	width: 100%;
+	height: 50px;
+	background: #343435;
+	margin-bottom: 30px;
+	align-items: center; /*выравнивает по вертикали*/
+	display: flex; /*выстраивает блоки в линию*/
+}
+
+.link {
+	font-size: 24px;
+}
+
+.menu {
+	width: 1140px;
+	margin: 0px auto; /*выстранивает по центру*/
+	display: flex; /*выстраивает блоки в линию*/
+	justify-content: space-between; /*заполняет пространство контейнерами*/
+	align-items: center; /*выравнивает по вертикали*/
+}
+
+ul {
+	display: flex; /*выстраивает блоки в линию*/
+	align-items: center; /*выравнивает по вертикали*/
+}
+
+.submenu1 {
+	display: flex;
+}
+
+.submenu1 a {
+	margin-right: 30px;
+}
+
+.submenu1 a:hover,
+.submenu2 a:hover {
+	color: #ffdd00;
+}
+
+.submenu2 a {
+	margin-left: 30px;
+}
+
+.submenu1 a,
+.submenu2 a {
+	color: #fff;
+}
+
+/*-------------------ЛОГО------------------------*/
+
+.frame2 {
+}
+
+.logo {
+	width: 1140px;
+	margin: 0px auto; /*выстранивает по центру*/
+	display: flex; /*выстраивает блоки в линию*/
+	align-items: center; /*выравнивает по вертикали*/
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0.04em;
+	color: #1d1d1f;
+	border-right: 1px solid #e8e8e9;
+}
+
+.img-logo {
+	width: 76px;
+	height: 100px;
+}
+
+.recko {
+	margin-left: 20px;
+	max-width: 358px;
+}
+
+/*-------------------НИЖНЕЕ МЕНЮ------------------------*/
+
+.frame3 {
+	padding-bottom: 100px;
+}
+.menu2 {
+	width: 1140px;
+	margin: 0px auto; /*выстранивает по центру*/
+	display: flex; /*выстраивает блоки в линию*/
+	align-items: center; /*выравнивает по вертикали*/
+	font-size: 14px;
+	line-height: 16px;
+	color: #343435;
+	border-right: 1px solid #e8e8e9;
+}
+
+.menu2 ul {
+	margin: 30px 0 0 0;
+	border-right: none;
+}
+.menu2 a {
+	margin-right: 30px;
+	color: #343435;
+}
+
+.menu2 a:hover {
+	color: #008f3a;
+}
+
+/*-------------------ПОСЛЕДНИЕ НОВОСТИ------------------------*/
+
+.frame4 {
+	padding-bottom: 25px;
+}
+
+.pn {
+	width: 1140px;
+	margin: 0px auto; /*выстранивает по центру*/
+	display: flex; /*выстраивает блоки в линию*/
+	align-items: center; /*выравнивает по вертикали*/
+	font-size: 20px;
+	line-height: 23px;
+	font-weight: 400;
+	color: #1d1d1f;
+}
+
+/*-------------------НОВОСТНОЙ БЛОК------------------------*/
+
+.frame5 {
+}
+
+.column {
+	max-width: 1140px;
+	margin: 0px auto; /*выстранивает по центру*/
+	display: flex; /*выстраивает блоки в линию*/
+	align-items: center; /*выравнивает по вертикали*/
+	justify-content: space-between; /*заполняет пространство контейнерами*/
+}
+
+.column a {
+	color: #343435;
+}
+
+.column1 {
+	max-width: 555px;
+}
+
+.column2 {
+	max-width: 555px;
+	margin-bottom: auto;
+}
+
+.img {
+	width: 555px;
+	height: 350px;
+	margin-bottom: 20px;
+}
+
+.title {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #1d1d1f;
+	margin-bottom: 10px;
+}
+
+.subtitle {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 16px;
+	color: #343435;
+	padding-bottom: 30px;
+}
+
+.subtitle a:hover {
+	color: #008f3a;
+	text-shadow: 0 0 50px hsla(240, 3%, 12%, 0.3);
+}
